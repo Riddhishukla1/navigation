@@ -16,13 +16,17 @@ class infoViewController: UIViewController {
     @IBOutlet weak var label5: UILabel!
     @IBOutlet weak var label6: UILabel!
     @IBOutlet weak var label7: UILabel!
-    var firstname = " ", lastname=" ", email=" "
+    var firstname = " ", lastname=" ", email=" ", address="", city="", postalcode=" ", password=" "
     override func viewDidLoad() {
         super.viewDidLoad()
         
         label1.text = "firt name:" + firstname
         label2.text = "last name:" + lastname
         label3.text = "email:" + email
+        label4.text = "address" + address
+        label5.text = "city" + city
+        label6.text = "postalcode" + postalcode
+        label7.text = "password" + password
         // Do any additional setup after loading the view.
     }
     
