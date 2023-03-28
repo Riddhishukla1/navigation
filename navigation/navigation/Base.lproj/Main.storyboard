@@ -21,7 +21,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="start"/>
                                 <connections>
-                                    <segue destination="BN7-h3-myo" kind="show" id="7hk-P2-9yQ"/>
+                                    <segue destination="BN7-h3-myo" kind="show" id="BWB-ix-FUA"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yri-4N-VdS">
@@ -57,7 +57,7 @@
         <!--form view-->
         <scene sceneID="ehs-wm-Qx2">
             <objects>
-                <viewController id="BN7-h3-myo" userLabel="form view" sceneMemberID="viewController">
+                <viewController id="BN7-h3-myo" userLabel="form view" customClass="formViewController" customModule="navigation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6sF-Xm-5Tr" customClass="formviewcontroller">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -207,10 +207,10 @@
             </objects>
             <point key="canvasLocation" x="737.68115942028987" y="87.723214285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--infoviewcontroller-->
         <scene sceneID="fjg-mp-FRa">
             <objects>
-                <viewController id="6hG-8V-NIW" sceneMemberID="viewController">
+                <viewController id="6hG-8V-NIW" userLabel="infoviewcontroller" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7ea-Pr-Lbr" customClass="infoviewcontroller">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
